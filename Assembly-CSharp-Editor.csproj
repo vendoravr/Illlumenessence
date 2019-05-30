@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{22EF47C9-16B2-7195-B1C2-2706181B30E7}</ProjectGuid>
+    <ProjectGuid>{A12B4730-FFC3-57F6-B6D9-A941ACEA1222}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -61,82 +61,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioImportPostProcessor.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MinMaxPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MixerSnapshotPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\OSPPropsPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXRefPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\AudioManager\Scripts\Utils\Editor\DrawerInspectorNote.cs" />
-    <Compile Include="Assets\Oculus\Avatar\Editor\AvatarMaterialEditor.cs" />
-    <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncTool.cs" />
-    <Compile Include="Assets\Oculus\LipSync\Editor\OVRNamedArrayPropertyDrawer.cs" />
-    <Compile Include="Assets\Oculus\Platform\Editor\GUIHelper.cs" />
-    <Compile Include="Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
-    <Compile Include="Assets\Oculus\Platform\Editor\OculusPluginUpdaterStub.cs" />
-    <Compile Include="Assets\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
-    <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
-    <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
-    <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPAudioSourceEditor.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPPropagationGeometryEditor.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPPropagationMaterialEditor.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPReflectionCustomGUI.cs" />
-    <Compile Include="Assets\Shared\Ramps\Editor\RampAssetEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\Editor\VRTKExample_FixSetupEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\Attributes\MinMaxRangeDrawer.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\Attributes\ObsoleteInspectorDrawer.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\Attributes\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\DataTypes\Limits2DDrawer.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\DataTypes\Vector3StateDrawer.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_AdaptiveQualityEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_EditorUtilities.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_InteractHapticsEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_NavMeshDataEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_ObjectSetup.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_PolicyListEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_RadialMenuEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_SDKManagerEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_SDKSetupEditor.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_SupportInfoWindow.cs" />
-    <Compile Include="Assets\VRTK\Source\Editor\VRTK_UpdatePrompt.cs" />
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR.Editor">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR">
-      <HintPath>C:/Unity Apps/BaseApp/BaseApp/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -402,23 +359,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{40A058C7-1373-77C7-DA2F-B437C98F02BB}</Project>
+      <Project>{18F5CD5B-715B-075F-279A-B49F11C97BDF}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{01320F92-776A-A6BA-EA98-2C2C05690EC2}</Project>
+      <Project>{3826B772-C19D-D450-672F-577DB0BF1CAF}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{9C56EEB5-3B36-6712-0563-FD24DB062C93}</Project>
+      <Project>{227AC6C6-C86F-F93E-2021-AD9B66849201}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{7E4E5DB9-708B-C21D-7277-B66369918A59}</Project>
+      <Project>{27F61454-1947-8E41-352F-2520F8FDBC45}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{A71D9557-B388-4E10-1188-2152E09216E9}</Project>
+      <Project>{6D0B16AE-C3EA-C84F-34E9-1FC61F20E57A}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
