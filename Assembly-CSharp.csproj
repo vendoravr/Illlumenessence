@@ -61,6 +61,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LightShaft\Scripts\CustomTools\DrawIfAttribute.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\ReactingLights.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\SimpleJSON.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\UIExtensions.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\UnityPackages\JsonNetSample\JsonNetSample.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\VideoController\LoadVideoTitleToText.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\VideoController\PauseIcon.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\VideoController\VideoProgressBar.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\VideoController\YT_RotateCamera.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\YoutubeLogo.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\YoutubePlayer.cs" />
+    <Compile Include="Assets\LightShaft\Scripts\YoutubePlayerLivestream.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\ChannelSearchDemo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\CommentsDemo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\IndividualVideoDataDemo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\PlaylistDemo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\VideoSearchDemo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\YoutubeApiGetUnlimitedVideos.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\YoutubeChannelUI.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Demos\YoutubeVideoUi.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Src\YoutubeAPIManager.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Src\YoutubeContentDetails.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Src\YoutubeSnippet.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Src\YoutubeStatistics.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\YoutubeDemoUsage.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\YoutubeSubtitlesReader.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\Exceptions.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\HTTPHelperYoutube.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\MagicHands.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\VideoInfo.cs" />
+    <Compile Include="Assets\LightShaft\YoutubeSrc\VideoRequest.cs" />
+    <Compile Include="Assets\MyScripts\ColorSwitch.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scripts\OculusSpatializerUnity.cs" />
@@ -72,8 +105,13 @@
     <Compile Include="Assets\Oculus\Spatializer\Scripts\ONSPPropagationMaterial.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scripts\ONSPVersion.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\LightShaft\YoutubeAPI\link.xml" />
     <None Include="Assets\RealisticCars_HD\RealisticCar02_HD\Meshes\ReadMe.txt" />
+    <None Include="Assets\LightShaft\Readme.txt" />
+    <None Include="Assets\LightShaft\Shaders\ViewInside.shader" />
+    <None Include="Assets\LightShaft\YoutubeAPI\Readme.txt" />
     <None Include="Assets\RealisticCars_HD\RealisticCar02_HD\README.txt" />
+    <None Include="Assets\LightShaft\Shaders\Panoramic360.shader" />
     <None Include="Assets\RealisticCars_HD\RealisticCar02_HD\Prefabs\Car02_Driving\ReadMe.txt" />
     <None Include="Assets\RealisticCars_HD\RealisticCar02_HD\Prefabs\Wheels\ReadMe.txt" />
     <Reference Include="Unity.ProGrids">
@@ -306,6 +344,9 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Unity Apps/Illlumenessence/Illlumenessence/Assets/LightShaft/Scripts/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

@@ -6,9 +6,11 @@ public class CameraSwitch : MonoBehaviour {
 
     public GameObject cameraOne;
     public GameObject cameraTwo;
+    public GameObject cameraThree;
 
     AudioListener cameraOneAudioLis;
     AudioListener cameraTwoAudioLis;
+    AudioListener cameraThreeAudioLis;
 
     // Use this for initialization
     void Start()
@@ -17,6 +19,7 @@ public class CameraSwitch : MonoBehaviour {
         //Get Camera Listeners
         cameraOneAudioLis = cameraOne.GetComponent<AudioListener>();
         cameraTwoAudioLis = cameraTwo.GetComponent<AudioListener>();
+        cameraThreeAudioLis = cameraThree.GetComponent<AudioListener>();
 
         //Camera Position Set
         cameraPositionChange(PlayerPrefs.GetInt("CameraPosition"));
@@ -55,7 +58,7 @@ public class CameraSwitch : MonoBehaviour {
     //Camera change Logic
     void cameraPositionChange(int camPosition)
     {
-        if (camPosition > 1)
+        if (camPosition > 2)
         {
             camPosition = 0;
         }
@@ -71,13 +74,32 @@ public class CameraSwitch : MonoBehaviour {
 
             cameraTwoAudioLis.enabled = false;
             cameraTwo.SetActive(false);
+
+            cameraThree.SetActive(false);
+            cameraThreeAudioLis.enabled = false;
         }
 
         //Set camera position 2
         if (camPosition == 1)
         {
+            cameraThree.SetActive(false);
+            cameraThreeAudioLis.enabled = false;
+
             cameraTwo.SetActive(true);
             cameraTwoAudioLis.enabled = true;
+
+            cameraOneAudioLis.enabled = false;
+            cameraOne.SetActive(false);
+        }
+
+        //Set camera position 3
+        if (camPosition == 2)
+        {
+            cameraThree.SetActive(true);
+            cameraThreeAudioLis.enabled = true;
+
+            cameraTwoAudioLis.enabled = false;
+            cameraTwo.SetActive(false);
 
             cameraOneAudioLis.enabled = false;
             cameraOne.SetActive(false);
