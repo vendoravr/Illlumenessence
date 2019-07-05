@@ -333,7 +333,7 @@ public class YoutubePlayer : MonoBehaviour
         }
     }
 
-    private void OnApplicationFocus(bool focus)
+    public void OnApplicationFocus(bool focus)
     {
         if (focus == true)
         {
@@ -352,7 +352,7 @@ public class YoutubePlayer : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    public void OnEnable()
     {
         if (autoPlayOnEnable && !pauseCalled)
         {

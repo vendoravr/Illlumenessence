@@ -354,3 +354,6 @@ C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp.csproj.C
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp.dll
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp.pdb
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Newtonsoft.Json.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.xml

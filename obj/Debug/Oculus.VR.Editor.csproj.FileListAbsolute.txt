@@ -381,3 +381,11 @@ C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Oculus.VR.Editor.csproj.
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Oculus.VR.Editor.csproj.CopyComplete
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Oculus.VR.Editor.dll
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Oculus.VR.Editor.pdb
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Newtonsoft.Json.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.Editor.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.Editor.xml
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.xml

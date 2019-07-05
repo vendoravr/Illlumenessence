@@ -180,3 +180,6 @@ C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp-firstpas
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Unity Apps\Illlumenessence\Illlumenessence\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Newtonsoft.Json.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+C:\Unity Apps\Illlumenessence\Illlumenessence\Temp\bin\Debug\Vuforia.UnityExtensions.xml
